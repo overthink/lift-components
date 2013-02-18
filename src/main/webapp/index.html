@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Lift From Scratch</title>
+    <title>Lift Components</title>
   </head>
   <body>
-    <h1>Welcome, you now have a working Lift installation</h1>
-    <div class="lift:Product"></div>
+    <h1>Some products</h1>
+    <div class="lift:Index?eager_eval=true">
+      <lift:embed what="product-default"/>
+    </div>
   </body>
 </html>

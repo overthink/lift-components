@@ -6,7 +6,7 @@ import net.liftweb.sitemap.{Menu, SiteMap}
 class Boot {
   def boot() {
     // where to search snippet
-    LiftRules.addToPackages("org.tralfamadore")
+    LiftRules.addToPackages("org.tralfamadore.liftcomponents")
 //
 //    // Build SiteMap
 //    def sitemap(): SiteMap = SiteMap(
