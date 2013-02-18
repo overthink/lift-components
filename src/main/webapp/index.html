@@ -4,9 +4,17 @@
     <title>Lift Components</title>
   </head>
   <body>
-    <h1>Some products</h1>
-    <div class="lift:Index?eager_eval=true">
-      <lift:embed what="product-default"/>
+    <h1>Top Cameras</h1>
+    <div class="lift:Index?eager_eval=true&num-products=5">
+      <table>
+        <tbody>
+            <tr>
+                <td>
+                    <lift:embed what="product-default"/>
+                </td>
+            </tr>
+          </tbody>
+      </table>
     </div>
   </body>
 </html>
