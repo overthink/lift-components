@@ -8,7 +8,7 @@ import net.liftweb.http.S
 /**
  * Snippet for the main page of our site.
  */
-class Index {
+class IndexPage {
   def render: CssSel = {
     val numProducts = S.attr("num-products").flatMap(n => tryo(n.toInt)).openOr(3)
     "tr *" #> Data.products.take(numProducts).map { p =>
